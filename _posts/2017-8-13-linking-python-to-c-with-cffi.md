@@ -1,5 +1,6 @@
 ---
 title: "Linking Python to C with CFFI"
+comments: true
 ---
 ## Why link Python to C?
 I hope that it is uncontroversial to state that Python is a great language that can suffer from occasional performance issues. This is especially true if Python is being used in heavy numerical computing environments like those at [Gamalon](https://www.gamalon.com). Gamalon is not the first to require using Python for numerical tasks. To meet this need, libraries like [`NumPy`](http://www.numpy.org), [`SciPy`](https://www.scipy.org), [`Pandas`](http://pandas.pydata.org) and others provide users with well tested implementations of most common numerical tasks. Most of these numerical tasks, such as [matrix multiplication](http://www.openblas.net) or [special function](http://www.netlib.org/cephes/) evaluation among others, have reference implementations in C or Fortran that are linked to Python through many layers of indirection. 

@@ -1,0 +1,3 @@
+- name: Harvard Dissertation Template
+  descr: "A dissertation template system for writing a dissertation at Harvard. The tool is written such that, if you write your academic papers following the prescription of the system, your dissertation will automatically build and format your papers into dissertation chapters."
+  github: https://github.com/tmarkovich/dissertation_template
