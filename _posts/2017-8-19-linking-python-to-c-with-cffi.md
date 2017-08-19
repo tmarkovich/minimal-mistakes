@@ -38,7 +38,10 @@ Generally yes. This linking can be done with a tool called [CFFI](http://cffi.re
 
 ## Writing and Building the C
 For the sake of comparison, we will implement the Beta `logpdf` function in C. This function is given by:
-![Untitled.jpg](https://wikimedia.org/api/rest_v1/media/math/render/svg/125fdaa41844a8703d1a8610ac00fbf3edacc8e7) 
+
+$$
+logpdf(x; \alpha, \beta) = \log\left(\Gamma(\alpha + \beta)\right) - \log\left(\Gamma(\alpha)\right) - \log\left(\Gamma{\beta}\right) + (\alpha - 1) \log(x) + (\beta - 1) \log(1 - x)
+$$
 
 which can be implemented in C like so:
 
