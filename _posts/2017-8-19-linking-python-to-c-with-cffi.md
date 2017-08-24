@@ -26,7 +26,7 @@ The story is certainly different if, instead of making repeated calls to the `lo
 
 |  Scalar | Vector |
 | :--------: | :--------: |
-| 48.6 s  | 0.143 s |
+| 45.7 s  | 0.147 s |
 
 Vectorization, then, is the key to writing performant `NumPy` and `SciPy` based code. 
 
@@ -135,11 +135,11 @@ Running the scripts detailed in the Scripts section below, we see the following 
 
 | Method  | Time [s] |  Slowdown (C Reference) |
 | :--------: | :--------: | :-----------------------------------: |
-| Reference C | 0.0283 s  | - |
-| `SciPy` Scalar | 48.6 s | 1720 |
-| `SciPy` Vector  | 0.143 s | 5.05 |
-| `CFFI` in cPython 3.6 | 0.381 s | 13.5 |
-| `CFFI` in PyPy3 | 0.0539 s | 1.9 |
+| Reference C | 0.0302 s  | - |
+| `SciPy` Scalar | 45.7 s | 1510 |
+| `SciPy` Vector  | 0.147 s | 4.87 |
+| `CFFI` in cPython 3.6 | 0.346 s | 11.5 |
+| `CFFI` in PyPy3 | 0.0449 s | 1.49 |
 
 Where all timings were generated on my Mid-2017 Non-touchbar MacBook Pro with 2.3 GHz Intel Core i5. The `SciPy` scalar and vector results are exactly the same as those reported in the introduction. The reference C results were computed by using the `beta_logpdf` function reported above and timed using the system clock available in the C standard library. The C reference was compiled with GCC 7 with compiler flags `-O3`, `-march=native`, and `-ffast-math`. The reported CFFI numbers were computed using the exact build scripts linked above. We elected to test in both cPython 3.6 and PyPy3 to test the possible benefits that a tracing JIT can afford us in super simplistic scenarios like this. cPython 3.6 and PyPy3 are both from the bottle poured with Homebrew.
 
@@ -167,7 +167,10 @@ In the above, we have explored specific techniques for such an optimization path
 
 Combining `PyPy` with a `CFFI` linked module, it is possible to obtain performance within an order of magnitude to C while still operating within Python. Amazingly enough, `PyPy` + `CFFI` out performs even vectorized `SciPy` in this situation! Granted, this is a sample size of 1 but it is at least encouraging.
 
-Of course, CFFI is not a magic bullet. Performing optimizations of this kind can significantly limit the flexibility of certain aspects of your code-base, and require developers to be more deliberate about their use of interfaces. It also adds maintenance costs because developers will now need to be able to support both C and Python. 
+Of course, CFFI is not a magic bullet. Performing optimizations of this kind can significantly limit the flexibility of certain aspects of your code-base, and require developers to be more deliberate about their use of interfaces. It also adds maintenance costs because developers will now need to be able to support both C and Python.
+
+#### Edits
+Note: The timings were updated to reflect an updated version of the underlying C function that matches the scipy behaviour better. Thank you @mgeier for pointing out this error!
 
 ## Scripts
 The callgraph was generated with
@@ -223,10 +226,17 @@ double nop(double a, double b, double x){
     return x;
 }
 
+double xlogy(double x, double y){
+  if(x == 0.0 || y == 0.0){
+    return 0.0;
+  }
+  return x * log(y);
+}
+
 double beta_logpdf(double a, double b, double x){
   double prefactor;
   prefactor = lgamma(a + b) - (lgamma(a) + lgamma(b));
-  return prefactor + (a - 1.) * log(x) + (b - 1.) * log(x - 1.);
+  return prefactor + xlogy(a - 1.0, x) + xlogy(b - 1.0, 1.0 - x);
 }
 
 int main(void){
@@ -242,5 +252,4 @@ int main(void){
   diff = (double)(end - start) / (CLOCKS_PER_SEC);
   printf("Time in seconds %f", diff);
   return 0;
-}
-```
+}```
