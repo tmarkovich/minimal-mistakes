@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1048px" height="516px" viewBox="0 0 1048 516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>er2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="446" y="284" width="109" height="40" rx="20"></rect>
+        <rect id="path-2" x="683" y="284" width="162" height="40" rx="20"></rect>
+        <rect id="path-3" x="369" y="52" width="81" height="40" rx="20"></rect>
+        <rect id="path-4" x="377" y="101" width="72" height="40" rx="20"></rect>
+        <rect id="path-5" x="304" y="150" width="145" height="40" rx="20"></rect>
+        <rect id="path-6" x="585" y="290" width="57" height="30" rx="15"></rect>
+        <rect id="path-7" x="204" y="284" width="88" height="40" rx="20"></rect>
+        <rect id="path-8" x="440" y="425" width="109" height="40" rx="20"></rect>
+        <rect id="path-9" x="330" y="290" width="88" height="30" rx="15"></rect>
+        <rect id="path-10" x="441" y="351" width="115" height="30" rx="15"></rect>
+        <rect id="path-11" x="453" y="218" width="88" height="30" rx="15"></rect>
+    </defs>
+    <g id="er2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="446.5" y="284.5" width="108" height="39" rx="19.5"></rect>
+        </g>
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="683.5" y="284.5" width="161" height="39" rx="19.5"></rect>
+        </g>
+        <text id="Concept/Fruit" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="700" y="309">Concept/Fruit</tspan>
+        </text>
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="369.5" y="52.5" width="80" height="39" rx="19.5"></rect>
+        </g>
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="377.5" y="101.5" width="71" height="39" rx="19.5"></rect>
+        </g>
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="304.5" y="150.5" width="144" height="39" rx="19.5"></rect>
+        </g>
+        <text id="Apple" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="473" y="309">Apple</tspan>
+        </text>
+        <path d="M672.501041,304.974828 L554.601829,304.974828" id="Path-15" stroke="#008C9F"></path>
+        <path d="M496.778488,170.316552 L449.181684,170.316552" id="Path-15" stroke="#008C9F" stroke-width="1.5"></path>
+        <path d="M496.778488,120.316552 L449.181684,120.316552" id="Path-15" stroke="#008C9F" stroke-width="1.5"></path>
+        <polygon id="Triangle" fill="#008C9F" transform="translate(678.500000, 305.000000) rotate(90.000000) translate(-678.500000, -305.000000) " points="678.5 299.5 683.5 310.5 673.5 310.5"></polygon>
+        <polygon id="Triangle" fill="#008C9F" transform="translate(496.000000, 418.500000) scale(1, -1) translate(-496.000000, -418.500000) " points="496 413 501 424 491 424"></polygon>
+        <polygon id="Triangle" fill="#008C9F" transform="translate(497.000000, 277.500000) scale(1, -1) translate(-497.000000, -277.500000) " points="497 272 502 283 492 283"></polygon>
+        <g id="Rectangle-13">
+            <use fill="#008C9F" fill-rule="evenodd" xlink:href="#path-6"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="585.5" y="290.5" width="56" height="29" rx="14.5"></rect>
+        </g>
+        <text id="IsA" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="14" font-weight="500" fill="#FFFFFF">
+            <tspan x="603" y="309">IsA</tspan>
+        </text>
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="204.5" y="284.5" width="87" height="39" rx="19.5"></rect>
+        </g>
+        <text id="Tree" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="230" y="309">Tree</tspan>
+        </text>
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="440.5" y="425.5" width="108" height="39" rx="19.5"></rect>
+        </g>
+        <text id="ApplePie" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="458" y="451">ApplePie</tspan>
+        </text>
+        <path d="M448,305 L298,305" id="Path-15" stroke="#008C9F" stroke-width="1.5"></path>
+        <path d="M496,324 L496,412.817228" id="Path-15" stroke="#008C9F" stroke-width="1.5"></path>
+        <polygon id="Triangle" fill="#008C9F" transform="translate(298.500000, 305.000000) scale(-1, 1) rotate(90.000000) translate(-298.500000, -305.000000) " points="298.5 299.5 303.5 310.5 293.5 310.5"></polygon>
+        <g id="Rectangle-13">
+            <use fill="#008C9F" fill-rule="evenodd" xlink:href="#path-9"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="330.5" y="290.5" width="87" height="29" rx="14.5"></rect>
+        </g>
+        <text id="GrowsOn" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="14" font-weight="500" fill="#FFFFFF">
+            <tspan x="343" y="309">GrowsOn</tspan>
+        </text>
+        <g id="Rectangle-13">
+            <use fill="#008C9F" fill-rule="evenodd" xlink:href="#path-10"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="441.5" y="351.5" width="114" height="29" rx="14.5"></rect>
+        </g>
+        <text id="IngredientOf" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="14" font-weight="500" fill="#FFFFFF">
+            <tspan x="458" y="370">IngredientOf</tspan>
+        </text>
+        <g id="Rectangle-13">
+            <use fill="#008C9F" fill-rule="evenodd" xlink:href="#path-11"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="453.5" y="218.5" width="87" height="29" rx="14.5"></rect>
+        </g>
+        <text id="TypeOf" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="14" font-weight="500" fill="#FFFFFF">
+            <tspan x="473" y="237">TypeOf</tspan>
+        </text>
+        <rect id="Rectangle-14" fill="#008C9F" x="496" y="248" width="2" height="25"></rect>
+        <path d="M450,229 L467,229 C483.568542,229 497,215.568542 497,199 L497,71" id="Path-16" stroke="#008C9F" stroke-width="1.5" transform="translate(473.500000, 150.000000) scale(1, -1) translate(-473.500000, -150.000000) "></path>
+        <text id="Gala" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="391" y="78">Gala</tspan>
+        </text>
+        <text id="Fuji" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="403" y="126">Fuji</tspan>
+        </text>
+        <text id="GrannySmith" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="327" y="176">GrannySmith</tspan>
+        </text>
+    </g>
+</svg>
