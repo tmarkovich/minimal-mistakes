@@ -39,7 +39,7 @@ reason about queries. For example, from the knowledge graph represented in
 Figure 1 we can reason about the question "Is apple a company?" by simply
 walking through the graph, starting at "Apple" and walking to "Company", testing
 edges and concepts along the way. In production, knowledge graphs tend to be
-quite large and complex with millions or billions of edges. uch a large amount
+quite large and complex with millions or billions of edges. Such a large amount
 of knowledge allows us to use these graphs to easily reason about semantic
 connections for tasks such as enriching business relevant data and resolving
 entities. At Forge.AI, we perform these tasks as part of our NLP / NLU pipeline
