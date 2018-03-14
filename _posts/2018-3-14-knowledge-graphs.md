@@ -30,7 +30,7 @@ knowledge graph is done by storing two vertices, one for "Apple" and one for
 of type "isA". This is visualized in Figure 1:
 
 ![Visualized simple knowledge graph representing the fact that "Apple is a
-Company"](images/apple.jpg)
+Company"]({{ site.url }}/assets/apple.svg)
 
 A knowledge graph encodes many facts, each through the use of a directed edge.
 Each vertex can have many facts connected to it, making this ultimately a
@@ -90,10 +90,10 @@ also keep a look up table of known aliases for each of our entities, where
 aliases can be things like CIK codes or ticker symbols.
 
 ![Visualized excerpt from the Knowledge Graph that pertains to the entity Apple
-the fruit.](images/er2.jpg)
+the fruit.]({{ site.url }}/assets/er2.svg)
 
 ![Visualized excerpt from the Knowledge Graph that pertains to the entity Apple,
-the consumer electronics corporation](images/er1.jpg)
+the consumer electronics corporation]({{ site.url }}/assets/er1.svg)
 
 With these small graphs in hand, the knowledge graph then uses machine reasoning
 to determine which of the entities is truly being referenced. There are many
@@ -121,7 +121,7 @@ a path is given in Figure 4.
 
 
 ![Visualized excerpt from the Knowledge Graph that pertains to the relationship
-between the Norilsk platinum group metals mine in Siberia, Russia and Samsung](images/ir1.jpg)
+between the Norilsk platinum group metals mine in Siberia, Russia and Samsung]({{ site.url }}/assets/ir1.svg)
 
 What we see in Figure 4 is that the knowledge graph believes that Iridium is a
 Platinum Group Metal, and that Platinum Group Metals are mined in Norilsk. We
