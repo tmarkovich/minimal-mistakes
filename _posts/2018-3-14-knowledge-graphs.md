@@ -30,8 +30,10 @@ knowledge graph is done by storing two vertices, one for "Apple" and one for
 of type "isA". This is visualized in Figure 1:
 
 ![]({{ site.url }}/assets/apple.svg)
-*Figure 1: Visualized simple knowledge graph representing the fact that "Apple is a
-Company"*
+<p align="center">
+<strong>Figure 1:</strong> Visualized simple knowledge graph representing the fact that "Apple is a
+Company"
+</p>
 
 A knowledge graph encodes many facts, each through the use of a directed edge.
 Each vertex can have many facts connected to it, making this ultimately a
@@ -91,12 +93,16 @@ also keep a look up table of known aliases for each of our entities, where
 aliases can be things like CIK codes or ticker symbols.
 
 ![]({{ site.url }}/assets/er2.svg)
-*Figure 2: Visualized excerpt from the Knowledge Graph that pertains to the entity Apple
-the fruit.*
+<p align="center">
+<strong>Figure 2:</strong> Visualized excerpt from the Knowledge Graph that pertains to the entity Apple
+the fruit.
+</p>
 
 ![]({{ site.url }}/assets/er1.svg)
-*Figure 3: Visualized excerpt from the Knowledge Graph that pertains to the entity Apple,
-the consumer electronics corporation*
+<p align="center">
+<strong>Figure 3:</strong> Visualized excerpt from the Knowledge Graph that pertains to the entity Apple,
+the consumer electronics corporation.
+</p>
 
 With these small graphs in hand, the knowledge graph then uses machine reasoning
 to determine which of the entities is truly being referenced. There are many
@@ -122,10 +128,11 @@ each of the entities. With these graphs in hand, we then compute a path given
 Dijkstra's algorithm between each of the marked endpoints. An example of such
 a path is given in Figure 4.
 
-
 ![]({{ site.url }}/assets/ir1.svg)
-*Figure 4: Visualized excerpt from the Knowledge Graph that pertains to the relationship
-between the Norilsk platinum group metals mine in Siberia, Russia and Samsung*
+<p align="center">
+<strong>Figure 4:</strong> Visualized excerpt from the Knowledge Graph that pertains to the relationship
+between the Norilsk platinum group metals mine in Siberia, Russia and Samsung.
+</p>
 
 What we see in Figure 4 is that the knowledge graph believes that Iridium is a
 Platinum Group Metal, and that Platinum Group Metals are mined in Norilsk. We
