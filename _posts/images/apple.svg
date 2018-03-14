@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1048px" height="98px" viewBox="0 0 1048 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>apple</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="297" y="29" width="109" height="40" rx="20"></rect>
+        <rect id="path-2" x="534" y="29" width="217" height="40" rx="20"></rect>
+        <rect id="path-3" x="436" y="35" width="57" height="30" rx="15"></rect>
+    </defs>
+    <g id="apple" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="297.5" y="29.5" width="108" height="39" rx="19.5"></rect>
+        </g>
+        <g id="Rectangle-13">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="534.5" y="29.5" width="216" height="39" rx="19.5"></rect>
+        </g>
+        <text id="Concept/Corporation" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="551" y="54">Concept/Corporation</tspan>
+        </text>
+        <text id="AppleInc" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="18" font-weight="500" fill="#008C9F">
+            <tspan x="314" y="54">AppleInc</tspan>
+        </text>
+        <path d="M523.501041,49.9748284 L405.601829,49.9748284" id="Path-15" stroke="#008C9F"></path>
+        <polygon id="Triangle" fill="#008C9F" transform="translate(528.500000, 50.000000) rotate(90.000000) translate(-528.500000, -50.000000) " points="528.5 44.5 533.5 55.5 523.5 55.5"></polygon>
+        <g id="Rectangle-13">
+            <use fill="#008C9F" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <rect stroke="#008C9F" stroke-width="1" x="436.5" y="35.5" width="56" height="29" rx="14.5"></rect>
+        </g>
+        <text id="IsA" font-family="HarmoniaSansProCyr-SemiBd, Harmonia Sans Pro Cyr" font-size="14" font-weight="500" fill="#FFFFFF">
+            <tspan x="454" y="54">IsA</tspan>
+        </text>
+    </g>
+</svg>
