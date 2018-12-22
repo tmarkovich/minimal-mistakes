@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Linking Python to C with CFFI"
 comments: true
 ---

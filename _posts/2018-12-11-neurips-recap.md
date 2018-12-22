@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "NeurIPS 2018 Recap by Forge.AI"
 comments: true
 ---
